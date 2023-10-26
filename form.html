@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>Photos of All</title>
+        <meta charset="utf-8">
+        <link href="competency.css" rel="stylesheet">
+    </head>
+
+    <body>
+    
+    <div id="wrap">
+    
+        <header>
+            <h1>Welcome to Photos of All</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="size.html">Photo Sizes & Details</a></li>
+                <li><a href="form.html">Forms</a></li>
+            </ul>
+            
+        </nav><br>
+
+        <main>
+
+            <p>Required fields are marked with an asterisk *</p>
+
+            <form method="post" action="https://webdevbasics.net/scripts/demo.php">
+                <label for="FirstName">*First Name:</label>
+                    <input type="text" name="FirstName" id="FirstName" required="required">
+                <label for="LastName">*Last Name:</label>
+                    <input type="text" name="LastName" id="LastName" required="required">
+                <label for="Email">*E-mail: Address:</label>
+                    <input type="text" name="Email" id="Email" required="required">
+                <label for="Phone">Phone Number:</label>
+                    <input type="tel" name="Phone" id="Phone" maxlength="12">
+                <label for="myID">*Package ID:</label>
+                    <input type="text" name="PackageID" id="myID" minlength="2" maxlength="2" required="required">
+                <label for="myComments">Comments:</label>
+                <textarea name="Comments" id="myComments" rows="2" cols="30"></textarea>
+                <input type="submit">
+            </form>
+
+            <h2>For Custom Sizes</h2>
+            <h4><strong>Contact or Visit Us</strong></h4>
+                <div>
+                    Photos of All<br>
+                    500 N, Main Street<br>
+                    Layton, UT 84041<br>
+                    <br>
+                    801-765-1234
+                </div>
+
+        </main>
+
+        <footer id="contact">
+            Copyright &copy; 2023 Photos of All<br>
+            <a href="mailto:camden.barnett@davistech.edu">
+            camden.barnett@davistech.edu</a>
+        </footer>
+    </div>
+    </body>
+</html>

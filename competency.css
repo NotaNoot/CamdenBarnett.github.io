@@ -1,0 +1,96 @@
+body {
+    background-color: grey;
+    color: #f7abed;
+    font-family: Georgia, "Times New Roman", serif;
+}
+nav {
+    float: left;
+    width: 150px;
+    font-weight: bold;
+    font-size: 120%;
+    padding: 1em;
+}
+nav a {
+    text-decoration: none;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+    font-size: 1.2em;
+}
+nav a:hover {color: #ee7ad1;
+            transition: 2s linear}
+
+header {
+    text-shadow: 1px 1px #CCCCCC;
+}
+h1 {
+    font-style: italic;
+    background-color: #ee7ad1;
+    padding: 1em;
+    margin-bottom: 0%;
+    text-align: center;
+}
+#wrap {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    background-color: #90C7E3;
+    min-width: 960px;
+    max-width: 2048px;
+    box-shadow: 3px 3px 3px #333333;
+    border: 1px solid #000033;
+    background-image: linear-gradient(to bottom, #FFFFFF, #dc90e3);
+    color: #666666;
+}
+main {
+    padding: 1px 20px 20px;
+    display: block;
+    margin-left: 160px;
+    background-color: #FFFFFF;
+}
+footer {
+    font-size: 90%;
+    font-style: italic;
+    text-align: center;
+    padding: 2em;
+    margin-left: 160px;
+    background-color: #FFFFFF;
+}
+#contact {
+    font-size: 90%;
+}
+.text {
+    text-align: left;
+}
+tr:nth-of-type(odd) {
+    background-color: #f7abed;
+}
+td {
+    text-align: center;
+}
+td, th {
+    padding: 0.5em;
+    border: 1px solid black;
+}
+label {
+    float: left;
+    display: block;
+    text-align: right;
+    width: 140px;
+    padding-right: 5px;
+}
+input, textarea {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 155px;
+}
+input[type="submit"] {
+    margin-left: 155px;
+}
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
